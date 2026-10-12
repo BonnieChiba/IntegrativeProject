@@ -29,6 +29,11 @@ namespace PITCHER
         {
 
         }
+
+        private void pnlNavbar_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
 

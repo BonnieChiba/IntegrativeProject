@@ -61,14 +61,13 @@
             pictureBoxPerfilEmpre = new PictureBox();
             pictureBox2 = new PictureBox();
             picUsuario = new PictureBox();
-            pnlNavMenu = new Panel();
-            btnMensajes = new Button();
-            btnNoticias = new Button();
-            btnEventos = new Button();
-            btnEmprendimientos = new Button();
             btnVolver = new Button();
             picLogo = new PictureBox();
             pnlNavbar = new Panel();
+            btnEmprendimientos = new Button();
+            btnEventos = new Button();
+            btnNoticiasMenu = new Button();
+            btnMensajes = new Button();
             ((System.ComponentModel.ISupportInitialize)picProductIcon).BeginInit();
             pnlVideoContainer.SuspendLayout();
             pnlFundador.SuspendLayout();
@@ -80,7 +79,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBoxPerfilEmpre).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picUsuario).BeginInit();
-            pnlNavMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picLogo).BeginInit();
             pnlNavbar.SuspendLayout();
             SuspendLayout();
@@ -355,91 +353,19 @@
             picUsuario.TabIndex = 3;
             picUsuario.TabStop = false;
             // 
-            // pnlNavMenu
-            // 
-            pnlNavMenu.BackColor = Color.FromArgb(245, 245, 247);
-            pnlNavMenu.Controls.Add(btnEmprendimientos);
-            pnlNavMenu.Controls.Add(btnEventos);
-            pnlNavMenu.Controls.Add(btnNoticias);
-            pnlNavMenu.Controls.Add(btnMensajes);
-            pnlNavMenu.Location = new Point(693, 31);
-            pnlNavMenu.Margin = new Padding(4, 5, 4, 5);
-            pnlNavMenu.Name = "pnlNavMenu";
-            pnlNavMenu.Size = new Size(453, 62);
-            pnlNavMenu.TabIndex = 2;
-            // 
-            // btnMensajes
-            // 
-            btnMensajes.FlatAppearance.BorderSize = 0;
-            btnMensajes.FlatStyle = FlatStyle.Flat;
-            btnMensajes.Font = new Font("Segoe UI", 9F);
-            btnMensajes.ForeColor = Color.Black;
-            btnMensajes.Location = new Point(347, 8);
-            btnMensajes.Margin = new Padding(4, 5, 4, 5);
-            btnMensajes.Name = "btnMensajes";
-            btnMensajes.Size = new Size(100, 46);
-            btnMensajes.TabIndex = 3;
-            btnMensajes.Text = "Mensajes";
-            btnMensajes.UseVisualStyleBackColor = true;
-            // 
-            // btnNoticias
-            // 
-            btnNoticias.FlatAppearance.BorderSize = 0;
-            btnNoticias.FlatStyle = FlatStyle.Flat;
-            btnNoticias.Font = new Font("Segoe UI", 9F);
-            btnNoticias.ForeColor = Color.Black;
-            btnNoticias.Location = new Point(247, 8);
-            btnNoticias.Margin = new Padding(4, 5, 4, 5);
-            btnNoticias.Name = "btnNoticias";
-            btnNoticias.Size = new Size(93, 46);
-            btnNoticias.TabIndex = 2;
-            btnNoticias.Text = "Noticias";
-            btnNoticias.UseVisualStyleBackColor = true;
-            // 
-            // btnEventos
-            // 
-            btnEventos.FlatAppearance.BorderSize = 0;
-            btnEventos.FlatStyle = FlatStyle.Flat;
-            btnEventos.Font = new Font("Segoe UI", 9F);
-            btnEventos.ForeColor = Color.Black;
-            btnEventos.Location = new Point(147, 8);
-            btnEventos.Margin = new Padding(4, 5, 4, 5);
-            btnEventos.Name = "btnEventos";
-            btnEventos.Size = new Size(93, 46);
-            btnEventos.TabIndex = 1;
-            btnEventos.Text = "Eventos";
-            btnEventos.UseVisualStyleBackColor = true;
-            // 
-            // btnEmprendimientos
-            // 
-            btnEmprendimientos.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            btnEmprendimientos.FlatAppearance.BorderSize = 0;
-            btnEmprendimientos.FlatStyle = FlatStyle.Flat;
-            btnEmprendimientos.Font = new Font("Segoe UI", 9F);
-            btnEmprendimientos.ForeColor = Color.FromArgb(0, 122, 204);
-            btnEmprendimientos.Location = new Point(5, 16);
-            btnEmprendimientos.Margin = new Padding(5);
-            btnEmprendimientos.Name = "btnEmprendimientos";
-            btnEmprendimientos.Size = new Size(133, 38);
-            btnEmprendimientos.TabIndex = 0;
-            btnEmprendimientos.Text = "Emprendimientos";
-            btnEmprendimientos.TextAlign = ContentAlignment.BottomCenter;
-            btnEmprendimientos.UseVisualStyleBackColor = true;
-            btnEmprendimientos.Click += btnEmprendimientos_Click;
-            // 
             // btnVolver
             // 
-            btnVolver.BackColor = Color.FromArgb(240, 240, 240);
+            btnVolver.BackColor = Color.Transparent;
             btnVolver.FlatAppearance.BorderSize = 0;
             btnVolver.FlatStyle = FlatStyle.Flat;
             btnVolver.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btnVolver.ForeColor = Color.Blue;
-            btnVolver.Location = new Point(554, 31);
+            btnVolver.Image = (Image)resources.GetObject("btnVolver.Image");
+            btnVolver.Location = new Point(517, 42);
             btnVolver.Margin = new Padding(4, 5, 4, 5);
             btnVolver.Name = "btnVolver";
-            btnVolver.Size = new Size(112, 62);
+            btnVolver.Size = new Size(54, 47);
             btnVolver.TabIndex = 1;
-            btnVolver.Text = "Volver";
             btnVolver.UseVisualStyleBackColor = false;
             btnVolver.Click += btnVolver_Click;
             // 
@@ -456,9 +382,12 @@
             // 
             // pnlNavbar
             // 
+            pnlNavbar.Controls.Add(btnEmprendimientos);
+            pnlNavbar.Controls.Add(btnEventos);
+            pnlNavbar.Controls.Add(btnNoticiasMenu);
+            pnlNavbar.Controls.Add(btnMensajes);
             pnlNavbar.Controls.Add(picLogo);
             pnlNavbar.Controls.Add(btnVolver);
-            pnlNavbar.Controls.Add(pnlNavMenu);
             pnlNavbar.Controls.Add(picUsuario);
             pnlNavbar.Dock = DockStyle.Top;
             pnlNavbar.Location = new Point(0, 0);
@@ -466,6 +395,59 @@
             pnlNavbar.Name = "pnlNavbar";
             pnlNavbar.Size = new Size(1285, 127);
             pnlNavbar.TabIndex = 0;
+            pnlNavbar.Paint += pnlNavbar_Paint;
+            // 
+            // btnEmprendimientos
+            // 
+            btnEmprendimientos.Cursor = Cursors.Hand;
+            btnEmprendimientos.FlatAppearance.BorderSize = 0;
+            btnEmprendimientos.FlatStyle = FlatStyle.Flat;
+            btnEmprendimientos.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnEmprendimientos.ForeColor = Color.Blue;
+            btnEmprendimientos.Location = new Point(592, 47);
+            btnEmprendimientos.Name = "btnEmprendimientos";
+            btnEmprendimientos.Size = new Size(183, 35);
+            btnEmprendimientos.TabIndex = 5;
+            btnEmprendimientos.Text = "Emprendimientos";
+            // 
+            // btnEventos
+            // 
+            btnEventos.Cursor = Cursors.Hand;
+            btnEventos.FlatAppearance.BorderSize = 0;
+            btnEventos.FlatStyle = FlatStyle.Flat;
+            btnEventos.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnEventos.ForeColor = Color.FromArgb(70, 70, 70);
+            btnEventos.Location = new Point(785, 47);
+            btnEventos.Name = "btnEventos";
+            btnEventos.Size = new Size(100, 35);
+            btnEventos.TabIndex = 6;
+            btnEventos.Text = "Eventos";
+            // 
+            // btnNoticiasMenu
+            // 
+            btnNoticiasMenu.Cursor = Cursors.Hand;
+            btnNoticiasMenu.FlatAppearance.BorderSize = 0;
+            btnNoticiasMenu.FlatStyle = FlatStyle.Flat;
+            btnNoticiasMenu.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnNoticiasMenu.ForeColor = Color.FromArgb(70, 70, 70);
+            btnNoticiasMenu.Location = new Point(895, 47);
+            btnNoticiasMenu.Name = "btnNoticiasMenu";
+            btnNoticiasMenu.Size = new Size(100, 35);
+            btnNoticiasMenu.TabIndex = 7;
+            btnNoticiasMenu.Text = "Noticias";
+            // 
+            // btnMensajes
+            // 
+            btnMensajes.Cursor = Cursors.Hand;
+            btnMensajes.FlatAppearance.BorderSize = 0;
+            btnMensajes.FlatStyle = FlatStyle.Flat;
+            btnMensajes.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnMensajes.ForeColor = Color.FromArgb(70, 70, 70);
+            btnMensajes.Location = new Point(1005, 47);
+            btnMensajes.Name = "btnMensajes";
+            btnMensajes.Size = new Size(100, 35);
+            btnMensajes.TabIndex = 8;
+            btnMensajes.Text = "Mensajes";
             // 
             // Producto
             // 
@@ -504,7 +486,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBoxPerfilEmpre).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)picUsuario).EndInit();
-            pnlNavMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)picLogo).EndInit();
             pnlNavbar.ResumeLayout(false);
             ResumeLayout(false);
@@ -519,13 +500,12 @@
         private PictureBox pictureBoxPerfilEmpre;
         private PictureBox pictureBox2;
         private PictureBox picUsuario;
-        private Panel pnlNavMenu;
-        private Button btnEmprendimientos;
-        private Button btnEventos;
-        private Button btnNoticias;
-        private Button btnMensajes;
         private Button btnVolver;
         private PictureBox picLogo;
         private Panel pnlNavbar;
+        private Button btnEmprendimientos;
+        private Button btnEventos;
+        private Button btnNoticiasMenu;
+        private Button btnMensajes;
     }
 }

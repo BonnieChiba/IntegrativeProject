@@ -73,7 +73,7 @@
             btnEmprendimientos.FlatStyle = FlatStyle.Flat;
             btnEmprendimientos.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             btnEmprendimientos.ForeColor = Color.FromArgb(70, 70, 70);
-            btnEmprendimientos.Location = new Point(282, 30);
+            btnEmprendimientos.Location = new Point(322, 33);
             btnEmprendimientos.Name = "btnEmprendimientos";
             btnEmprendimientos.Size = new Size(183, 35);
             btnEmprendimientos.TabIndex = 1;
@@ -86,7 +86,7 @@
             btnEventos.FlatStyle = FlatStyle.Flat;
             btnEventos.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             btnEventos.ForeColor = Color.FromArgb(70, 70, 70);
-            btnEventos.Location = new Point(475, 30);
+            btnEventos.Location = new Point(515, 33);
             btnEventos.Name = "btnEventos";
             btnEventos.Size = new Size(100, 35);
             btnEventos.TabIndex = 2;
@@ -98,8 +98,8 @@
             btnNoticiasMenu.FlatAppearance.BorderSize = 0;
             btnNoticiasMenu.FlatStyle = FlatStyle.Flat;
             btnNoticiasMenu.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            btnNoticiasMenu.ForeColor = Color.FromArgb(0, 102, 204);
-            btnNoticiasMenu.Location = new Point(585, 30);
+            btnNoticiasMenu.ForeColor = Color.Blue;
+            btnNoticiasMenu.Location = new Point(625, 33);
             btnNoticiasMenu.Name = "btnNoticiasMenu";
             btnNoticiasMenu.Size = new Size(100, 35);
             btnNoticiasMenu.TabIndex = 3;
@@ -112,7 +112,7 @@
             btnMensajes.FlatStyle = FlatStyle.Flat;
             btnMensajes.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             btnMensajes.ForeColor = Color.FromArgb(70, 70, 70);
-            btnMensajes.Location = new Point(695, 30);
+            btnMensajes.Location = new Point(735, 33);
             btnMensajes.Name = "btnMensajes";
             btnMensajes.Size = new Size(100, 35);
             btnMensajes.TabIndex = 4;

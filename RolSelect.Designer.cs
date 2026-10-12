@@ -29,7 +29,7 @@
             btnIniciarSesion = new Button();
             pictureBoxInve = new PictureBox();
             pictureBoxEmpre = new PictureBox();
-            button1 = new Button();
+            btnVolver = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBoxInve).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxEmpre).BeginInit();
             SuspendLayout();
@@ -50,7 +50,7 @@
             // 
             lblSubtitulo.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblSubtitulo.ForeColor = Color.FromArgb(30, 30, 30);
-            lblSubtitulo.Location = new Point(16, 131);
+            lblSubtitulo.Location = new Point(19, 131);
             lblSubtitulo.Margin = new Padding(4, 0, 4, 0);
             lblSubtitulo.Name = "lblSubtitulo";
             lblSubtitulo.Size = new Size(747, 46);
@@ -141,16 +141,21 @@
             pictureBoxEmpre.TabIndex = 7;
             pictureBoxEmpre.TabStop = false;
             // 
-            // button1
+            // btnVolver
             // 
-            button1.ForeColor = Color.Blue;
-            button1.Location = new Point(67, 70);
-            button1.Name = "button1";
-            button1.Size = new Size(122, 41);
-            button1.TabIndex = 8;
-            button1.Text = "Volver";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnVolver.BackColor = Color.Transparent;
+            btnVolver.FlatAppearance.BorderSize = 0;
+            btnVolver.FlatStyle = FlatStyle.Flat;
+            btnVolver.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnVolver.ForeColor = Color.FromArgb(0, 102, 204);
+            btnVolver.Image = (Image)resources.GetObject("btnVolver.Image");
+            btnVolver.ImageAlign = ContentAlignment.MiddleRight;
+            btnVolver.Location = new Point(67, 61);
+            btnVolver.Margin = new Padding(3, 4, 3, 4);
+            btnVolver.Name = "btnVolver";
+            btnVolver.Size = new Size(34, 36);
+            btnVolver.TabIndex = 8;
+            btnVolver.UseVisualStyleBackColor = false;
             // 
             // RolSelect
             // 
@@ -158,7 +163,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(779, 725);
-            Controls.Add(button1);
+            Controls.Add(btnVolver);
             Controls.Add(pictureBoxEmpre);
             Controls.Add(pictureBoxInve);
             Controls.Add(btnIniciarSesion);
@@ -187,6 +192,6 @@
         private System.Windows.Forms.Button btnIniciarSesion;
         private PictureBox pictureBoxInve;
         private PictureBox pictureBoxEmpre;
-        private Button button1;
+        private Button btnVolver;
     }
 }

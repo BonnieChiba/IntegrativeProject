@@ -53,17 +53,18 @@
             // 
             // btnVolver
             // 
-            btnVolver.BackColor = Color.FromArgb(245, 245, 245);
+            btnVolver.BackColor = Color.Transparent;
             btnVolver.FlatAppearance.BorderSize = 0;
             btnVolver.FlatStyle = FlatStyle.Flat;
             btnVolver.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnVolver.ForeColor = Color.FromArgb(0, 102, 204);
+            btnVolver.Image = (Image)resources.GetObject("btnVolver.Image");
+            btnVolver.ImageAlign = ContentAlignment.MiddleRight;
             btnVolver.Location = new Point(15, 19);
             btnVolver.Margin = new Padding(3, 4, 3, 4);
             btnVolver.Name = "btnVolver";
-            btnVolver.Size = new Size(70, 38);
+            btnVolver.Size = new Size(32, 38);
             btnVolver.TabIndex = 5;
-            btnVolver.Text = "Volver";
             btnVolver.UseVisualStyleBackColor = false;
             // 
             // picProfile
