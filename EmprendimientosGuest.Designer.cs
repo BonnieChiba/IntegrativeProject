@@ -244,7 +244,6 @@
             // 
             // Cambiar1Boton
             // 
-            Cambiar1Boton.Image = Proyecto_Integrador.Properties.Resources.icons8_next_24_2;
             resources.ApplyResources(Cambiar1Boton, "Cambiar1Boton");
             Cambiar1Boton.Name = "Cambiar1Boton";
             Cambiar1Boton.UseVisualStyleBackColor = true;
