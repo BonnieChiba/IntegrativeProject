@@ -114,6 +114,7 @@
             IniciarSesiónBoton.TabIndex = 3;
             IniciarSesiónBoton.Text = "Iniciar Sesión";
             IniciarSesiónBoton.UseVisualStyleBackColor = false;
+            IniciarSesiónBoton.Click += IniciarSesiónBoton_Click;
             // 
             // ContraseñaIniciarSesionTextbox
             // 

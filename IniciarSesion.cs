@@ -24,5 +24,10 @@ namespace PITCHER
         {
 
         }
+
+        private void IniciarSesiónBoton_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
