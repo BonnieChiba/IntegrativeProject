@@ -45,6 +45,7 @@
             InvierteText = new Label();
             ChihuahuaText = new Label();
             BackgroundInversor = new Panel();
+            RegresarInversor = new Button();
             LineaSuperiorPicturebox = new PictureBox();
             pictureBox1 = new PictureBox();
             CuadroBlancoTexto.SuspendLayout();
@@ -217,6 +218,7 @@
             // BackgroundInversor
             // 
             BackgroundInversor.BackColor = Color.Blue;
+            BackgroundInversor.Controls.Add(RegresarInversor);
             BackgroundInversor.Controls.Add(ChihuahuaText);
             BackgroundInversor.Controls.Add(InvierteText);
             BackgroundInversor.Controls.Add(CuadroBlancoTexto);
@@ -226,6 +228,15 @@
             BackgroundInversor.Name = "BackgroundInversor";
             BackgroundInversor.Size = new Size(1300, 656);
             BackgroundInversor.TabIndex = 0;
+            // 
+            // RegresarInversor
+            // 
+            RegresarInversor.Image = (Image)resources.GetObject("RegresarInversor.Image");
+            RegresarInversor.Location = new Point(72, 30);
+            RegresarInversor.Name = "RegresarInversor";
+            RegresarInversor.Size = new Size(61, 67);
+            RegresarInversor.TabIndex = 4;
+            RegresarInversor.UseVisualStyleBackColor = true;
             // 
             // LineaSuperiorPicturebox
             // 
@@ -286,5 +297,6 @@
         private Panel BackgroundInversor;
         private PictureBox pictureBox1;
         private MaskedTextBox RFCInversorTextbox;
+        private Button RegresarInversor;
     }
 }

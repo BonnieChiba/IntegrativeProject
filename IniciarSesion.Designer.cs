@@ -40,6 +40,7 @@
             IniciarSesionTextbox = new Label();
             LineaSuperiorIniciarSesion = new PictureBox();
             LineaInferiorIniciarSesion = new PictureBox();
+            button1 = new Button();
             panel1.SuspendLayout();
             Panelito.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)LineaSuperiorIniciarSesion).BeginInit();
@@ -49,6 +50,7 @@
             // panel1
             // 
             panel1.BackColor = Color.Blue;
+            panel1.Controls.Add(button1);
             panel1.Controls.Add(Panelito);
             panel1.Controls.Add(LineaSuperiorIniciarSesion);
             panel1.Controls.Add(LineaInferiorIniciarSesion);
@@ -162,6 +164,15 @@
             LineaInferiorIniciarSesion.TabIndex = 2;
             LineaInferiorIniciarSesion.TabStop = false;
             // 
+            // button1
+            // 
+            button1.Image = (Image)resources.GetObject("button1.Image");
+            button1.Location = new Point(97, 51);
+            button1.Name = "button1";
+            button1.Size = new Size(59, 67);
+            button1.TabIndex = 7;
+            button1.UseVisualStyleBackColor = true;
+            // 
             // IniciarSesion
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -192,5 +203,6 @@
         private Label label1;
         private PictureBox LineaSuperiorIniciarSesion;
         private PictureBox LineaInferiorIniciarSesion;
+        private Button button1;
     }
 }
