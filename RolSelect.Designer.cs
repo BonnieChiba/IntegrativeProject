@@ -27,11 +27,11 @@
             btnEmprendedor = new Button();
             lblCuenta = new Label();
             btnIniciarSesion = new Button();
-            pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
+            pictureBoxInve = new PictureBox();
+            pictureBoxEmpre = new PictureBox();
             button1 = new Button();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxInve).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxEmpre).BeginInit();
             SuspendLayout();
             // 
             // lblTitulo
@@ -118,28 +118,28 @@
             btnIniciarSesion.Text = "iniciar sesion";
             btnIniciarSesion.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // pictureBoxInve
             // 
-            pictureBox1.BackColor = Color.LightSkyBlue;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(113, 272);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(200, 200);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 6;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+            pictureBoxInve.BackColor = Color.LightSkyBlue;
+            pictureBoxInve.Image = (Image)resources.GetObject("pictureBoxInve.Image");
+            pictureBoxInve.Location = new Point(113, 272);
+            pictureBoxInve.Name = "pictureBoxInve";
+            pictureBoxInve.Size = new Size(200, 200);
+            pictureBoxInve.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBoxInve.TabIndex = 6;
+            pictureBoxInve.TabStop = false;
+            pictureBoxInve.Click += pictureBox1_Click;
             // 
-            // pictureBox2
+            // pictureBoxEmpre
             // 
-            pictureBox2.BackColor = Color.FromArgb(242, 108, 63);
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(457, 272);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(200, 200);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 7;
-            pictureBox2.TabStop = false;
+            pictureBoxEmpre.BackColor = Color.FromArgb(242, 108, 63);
+            pictureBoxEmpre.Image = (Image)resources.GetObject("pictureBoxEmpre.Image");
+            pictureBoxEmpre.Location = new Point(457, 272);
+            pictureBoxEmpre.Name = "pictureBoxEmpre";
+            pictureBoxEmpre.Size = new Size(200, 200);
+            pictureBoxEmpre.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBoxEmpre.TabIndex = 7;
+            pictureBoxEmpre.TabStop = false;
             // 
             // button1
             // 
@@ -159,8 +159,8 @@
             BackColor = Color.White;
             ClientSize = new Size(779, 725);
             Controls.Add(button1);
-            Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
+            Controls.Add(pictureBoxEmpre);
+            Controls.Add(pictureBoxInve);
             Controls.Add(btnIniciarSesion);
             Controls.Add(lblCuenta);
             Controls.Add(btnEmprendedor);
@@ -173,8 +173,8 @@
             Name = "RolSelect";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Selección de Enfoque";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxInve).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxEmpre).EndInit();
             ResumeLayout(false);
         }
 
@@ -185,8 +185,8 @@
         private System.Windows.Forms.Button btnEmprendedor;
         private System.Windows.Forms.Label lblCuenta;
         private System.Windows.Forms.Button btnIniciarSesion;
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
+        private PictureBox pictureBoxInve;
+        private PictureBox pictureBoxEmpre;
         private Button button1;
     }
 }
