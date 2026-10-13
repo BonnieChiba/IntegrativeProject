@@ -224,7 +224,7 @@
             BackgroundInversor.Controls.Add(pictureBox1);
             BackgroundInversor.Location = new Point(25, 28);
             BackgroundInversor.Name = "BackgroundInversor";
-            BackgroundInversor.Size = new Size(1300, 656);
+            BackgroundInversor.Size = new Size(1756, 847);
             BackgroundInversor.TabIndex = 0;
             // 
             // LineaSuperiorPicturebox
@@ -250,12 +250,15 @@
             // 
             // CrearCuentaInversor
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1364, 749);
+            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleMode = AutoScaleMode.Dpi;
+            ClientSize = new Size(1904, 934);
             Controls.Add(BackgroundInversor);
+            MinimumSize = new Size(800, 600);
             Name = "CrearCuentaInversor";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            WindowState = FormWindowState.Maximized;
             Load += Form1_Load;
             CuadroBlancoTexto.ResumeLayout(false);
             CuadroBlancoTexto.PerformLayout();
