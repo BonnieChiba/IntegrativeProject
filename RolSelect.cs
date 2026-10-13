@@ -24,5 +24,23 @@ namespace PITCHER
         {
 
         }
+        private void panel1_Click(object sender, EventArgs e) // (o el nombre que tenga tu panel azul)
+        {
+            CrearCuentaInversor formInversor = new CrearCuentaInversor();
+            formInversor.Show();
+            this.Hide();
+        }
+        private void panel2_Click(object sender, EventArgs e) // (o el nombre que tenga tu panel naranja)
+        {
+            CrearCuentaEmprendedor formEmprendedor = new CrearCuentaEmprendedor();
+            formEmprendedor.Show();
+            this.Hide();
+        }
+        private void IniciarSesionLabel_Click(object sender, EventArgs e) // (o el nombre que tenga tu control)
+        {
+            IniciarSesion formLogin = new IniciarSesion();
+            formLogin.Show();
+            this.Hide(); // O this.Close(); para cerrar la ventana actual
+        }
     }
 }

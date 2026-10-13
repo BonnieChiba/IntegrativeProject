@@ -175,6 +175,8 @@
             panel1.ForeColor = Color.White;
             resources.ApplyResources(panel1, "panel1");
             panel1.Name = "panel1";
+            panel1.Click += IniciarSesion_Click;
+            panel1.Paint += panel1_Paint;
             // 
             // BuscarBoton
             // 
@@ -213,6 +215,8 @@
             Empre3.Controls.Add(Imagen3);
             resources.ApplyResources(Empre3, "Empre3");
             Empre3.Name = "Empre3";
+            Empre3.Click += AbrirProducto;
+            Empre3.Paint += Empre3_Paint;
             // 
             // Like3Boton
             // 
@@ -235,6 +239,7 @@
             resources.ApplyResources(Imagen3, "Imagen3");
             Imagen3.Name = "Imagen3";
             Imagen3.TabStop = false;
+            Imagen3.Click += AbrirProducto;
             // 
             // Cambiar2Boton
             // 

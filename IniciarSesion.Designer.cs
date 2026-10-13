@@ -83,6 +83,7 @@
             RegistrarmeLink.TabIndex = 6;
             RegistrarmeLink.TabStop = true;
             RegistrarmeLink.Text = "Registrarme";
+            RegistrarmeLink.LinkClicked += RegistrarmeLink_LinkClicked;
             // 
             // label1
             // 

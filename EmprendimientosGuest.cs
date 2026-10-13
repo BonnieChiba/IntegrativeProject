@@ -59,5 +59,26 @@ namespace PITCHER
         {
 
         }
+        private void AbrirProducto(object sender, EventArgs e)
+        {
+            Producto PantallaPrincipal = new Producto();
+            PantallaPrincipal.Show();
+            this.Hide();
+        }
+        private void IniciarSesion_Click(object sender, EventArgs e)
+        {
+            IniciarSesion PantallaPrincipal = new IniciarSesion();
+            PantallaPrincipal.Show();
+            this.Hide();
+        }
+        private void Empre3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

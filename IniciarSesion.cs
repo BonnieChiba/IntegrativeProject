@@ -24,5 +24,12 @@ namespace PITCHER
         {
 
         }
+
+        private void RegistrarmeLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            RolSelect formRolSelect = new RolSelect();
+            formRolSelect.Show();
+            this.Hide();
+        }
     }
 }

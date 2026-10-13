@@ -27,7 +27,9 @@ namespace PITCHER
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
-
+            EmprendimientosGuest volver = new EmprendimientosGuest();
+            volver.Show();
+            this.Close();
         }
 
         private void pnlNavbar_Paint(object sender, PaintEventArgs e)
