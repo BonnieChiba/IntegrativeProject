@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CrearCuentaInversor));
             CuadroBlancoTexto = new Panel();
             RFCInversorTextbox = new MaskedTextBox();
@@ -47,6 +48,7 @@
             BackgroundInversor = new Panel();
             LineaSuperiorPicturebox = new PictureBox();
             pictureBox1 = new PictureBox();
+            imageList1 = new ImageList(components);
             CuadroBlancoTexto.SuspendLayout();
             BackgroundInversor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)LineaSuperiorPicturebox).BeginInit();
@@ -68,7 +70,7 @@
             CuadroBlancoTexto.Controls.Add(UsuarioTexto);
             CuadroBlancoTexto.Controls.Add(InversorTexto);
             CuadroBlancoTexto.Controls.Add(CrearCuentaLabel);
-            CuadroBlancoTexto.Location = new Point(285, 51);
+            CuadroBlancoTexto.Location = new Point(432, 218);
             CuadroBlancoTexto.Name = "CuadroBlancoTexto";
             CuadroBlancoTexto.Size = new Size(423, 558);
             CuadroBlancoTexto.TabIndex = 0;
@@ -197,7 +199,7 @@
             InvierteText.BackColor = Color.Transparent;
             InvierteText.Font = new Font("Corbel", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
             InvierteText.ForeColor = Color.White;
-            InvierteText.Location = new Point(807, 204);
+            InvierteText.Location = new Point(945, 359);
             InvierteText.Name = "InvierteText";
             InvierteText.Size = new Size(232, 177);
             InvierteText.TabIndex = 1;
@@ -208,7 +210,7 @@
             ChihuahuaText.AutoSize = true;
             ChihuahuaText.Font = new Font("Ink Free", 17.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             ChihuahuaText.ForeColor = Color.White;
-            ChihuahuaText.Location = new Point(807, 381);
+            ChihuahuaText.Location = new Point(954, 571);
             ChihuahuaText.Name = "ChihuahuaText";
             ChihuahuaText.Size = new Size(208, 29);
             ChihuahuaText.TabIndex = 2;
@@ -224,13 +226,13 @@
             BackgroundInversor.Controls.Add(pictureBox1);
             BackgroundInversor.Location = new Point(25, 28);
             BackgroundInversor.Name = "BackgroundInversor";
-            BackgroundInversor.Size = new Size(1756, 847);
+            BackgroundInversor.Size = new Size(1848, 880);
             BackgroundInversor.TabIndex = 0;
             // 
             // LineaSuperiorPicturebox
             // 
             LineaSuperiorPicturebox.Image = (Image)resources.GetObject("LineaSuperiorPicturebox.Image");
-            LineaSuperiorPicturebox.Location = new Point(20, -50);
+            LineaSuperiorPicturebox.Location = new Point(178, 0);
             LineaSuperiorPicturebox.Name = "LineaSuperiorPicturebox";
             LineaSuperiorPicturebox.Size = new Size(1280, 254);
             LineaSuperiorPicturebox.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -241,12 +243,18 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(17, 410);
+            pictureBox1.Location = new Point(299, 634);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(1280, 246);
             pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
+            // 
+            // imageList1
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth32Bit;
+            imageList1.ImageSize = new Size(16, 16);
+            imageList1.TransparentColor = Color.Transparent;
             // 
             // CrearCuentaInversor
             // 
@@ -289,5 +297,6 @@
         private Panel BackgroundInversor;
         private PictureBox pictureBox1;
         private MaskedTextBox RFCInversorTextbox;
+        private ImageList imageList1;
     }
 }
