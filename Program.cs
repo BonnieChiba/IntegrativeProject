@@ -17,7 +17,8 @@ namespace PITCHER
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CrearCuentaInversor());
+            Application.Run(new Proyecto_Integrador.Eventos());
         }
     }
 }
+
