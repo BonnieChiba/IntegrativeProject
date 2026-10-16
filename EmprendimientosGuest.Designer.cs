@@ -251,7 +251,7 @@
             // EmprendimientosGuest
             // 
             resources.ApplyResources(this, "$this");
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.Dpi;
             Controls.Add(Cambiar1Boton);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -268,6 +268,7 @@
             Controls.Add(NoticiasText);
             Controls.Add(pictureBox1);
             Name = "EmprendimientosGuest";
+            WindowState = FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             Empre1.ResumeLayout(false);
             Empre1.PerformLayout();
