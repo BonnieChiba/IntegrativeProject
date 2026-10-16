@@ -78,6 +78,7 @@
             btnEmprendimientos.Size = new Size(183, 35);
             btnEmprendimientos.TabIndex = 1;
             btnEmprendimientos.Text = "Emprendimientos";
+            btnEmprendimientos.Click += btnEmprendimientos_Click;
             // 
             // btnEventos
             // 

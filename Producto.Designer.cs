@@ -44,6 +44,7 @@
             lblCategoria = new Label();
             btnLike = new Button();
             pnlVideoContainer = new Panel();
+            pictureBox2 = new PictureBox();
             btnPrevVideo = new Button();
             btnNextVideo = new Button();
             pnlFundador = new Panel();
@@ -59,7 +60,6 @@
             picProducto3 = new PictureBox();
             pnlGallery = new Panel();
             pictureBoxPerfilEmpre = new PictureBox();
-            pictureBox2 = new PictureBox();
             picUsuario = new PictureBox();
             btnVolver = new Button();
             picLogo = new PictureBox();
@@ -70,6 +70,7 @@
             btnMensajes = new Button();
             ((System.ComponentModel.ISupportInitialize)picProductIcon).BeginInit();
             pnlVideoContainer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             pnlFundador.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picFundador).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picProducto1).BeginInit();
@@ -77,7 +78,6 @@
             ((System.ComponentModel.ISupportInitialize)picProducto3).BeginInit();
             pnlGallery.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxPerfilEmpre).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picUsuario).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picLogo).BeginInit();
             pnlNavbar.SuspendLayout();
@@ -143,6 +143,15 @@
             pnlVideoContainer.Name = "pnlVideoContainer";
             pnlVideoContainer.Size = new Size(613, 477);
             pnlVideoContainer.TabIndex = 6;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(261, 197);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(100, 100);
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
             // 
             // btnPrevVideo
             // 
@@ -332,15 +341,6 @@
             pictureBoxPerfilEmpre.TabIndex = 12;
             pictureBoxPerfilEmpre.TabStop = false;
             // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(261, 197);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(100, 100);
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
-            // 
             // picUsuario
             // 
             picUsuario.BackColor = Color.Transparent;
@@ -435,6 +435,7 @@
             btnNoticiasMenu.Size = new Size(100, 35);
             btnNoticiasMenu.TabIndex = 7;
             btnNoticiasMenu.Text = "Noticias";
+            btnNoticiasMenu.Click += btnNoticiasMenu_Click;
             // 
             // btnMensajes
             // 
@@ -474,8 +475,10 @@
             Name = "Producto";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Detalle del Producto - Pitcher";
+            Load += Producto_Load;
             ((System.ComponentModel.ISupportInitialize)picProductIcon).EndInit();
             pnlVideoContainer.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             pnlFundador.ResumeLayout(false);
             pnlFundador.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)picFundador).EndInit();
@@ -484,7 +487,6 @@
             ((System.ComponentModel.ISupportInitialize)picProducto3).EndInit();
             pnlGallery.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBoxPerfilEmpre).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)picUsuario).EndInit();
             ((System.ComponentModel.ISupportInitialize)picLogo).EndInit();
             pnlNavbar.ResumeLayout(false);

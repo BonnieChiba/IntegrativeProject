@@ -36,6 +36,18 @@ namespace PITCHER
         {
 
         }
+
+        private void btnNoticiasMenu_Click(object sender, EventArgs e)
+        {
+            Noticias PantallaPrincipalNoticias = new Noticias();
+            PantallaPrincipalNoticias.Show();
+            this.Hide();
+        }
+
+        private void Producto_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

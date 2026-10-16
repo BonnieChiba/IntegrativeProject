@@ -31,5 +31,12 @@ namespace PITCHER
             formRolSelect.Show();
             this.Hide();
         }
+
+        private void IniciarSesiónBoton_Click(object sender, EventArgs e)
+        {
+            EmprendimientosGuest PantallaPrincipalEmprendimientoGuest = new EmprendimientosGuest();
+            PantallaPrincipalEmprendimientoGuest.Show();
+                this.Hide();
+        }
     }
 }

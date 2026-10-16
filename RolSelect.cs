@@ -15,11 +15,6 @@ namespace PITCHER
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
 

@@ -24,5 +24,12 @@ namespace PITCHER
         {
 
         }
+
+        private void btnEmprendimientos_Click(object sender, EventArgs e)
+        {
+            EmprendimientosGuest PantallaPrincipalEmprendimientosGuest = new EmprendimientosGuest();
+            PantallaPrincipalEmprendimientosGuest.Show();
+            this.Hide();
+        }
     }
 }

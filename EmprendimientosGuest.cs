@@ -20,11 +20,6 @@ namespace PITCHER
 
         }
 
-        private void IniciarSesionText_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void EmprendimientosText_Click(object sender, EventArgs e)
         {
 
@@ -61,14 +56,14 @@ namespace PITCHER
         }
         private void AbrirProducto(object sender, EventArgs e)
         {
-            Producto PantallaPrincipal = new Producto();
-            PantallaPrincipal.Show();
+            Producto PantallaPrincipalProducto = new Producto();
+            PantallaPrincipalProducto.Show();
             this.Hide();
         }
         private void IniciarSesion_Click(object sender, EventArgs e)
         {
-            IniciarSesion PantallaPrincipal = new IniciarSesion();
-            PantallaPrincipal.Show();
+            IniciarSesion PantallaPrincipalIniciarSesion = new IniciarSesion();
+            PantallaPrincipalIniciarSesion.Show();
             this.Hide();
         }
         private void Empre3_Paint(object sender, PaintEventArgs e)
@@ -79,6 +74,24 @@ namespace PITCHER
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+
+        private void BuscarTexboxClick(object sender, EventArgs e)
+        {
+            BuscarTextbox.Clear();
+        }
+
+        private void BuscarTextbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NoticiasText_Click(object sender, EventArgs e)
+        {
+            Noticias PantallaPrincipalNoticias = new Noticias();
+            PantallaPrincipalNoticias.Show();
+            this.Hide();
         }
     }
 }

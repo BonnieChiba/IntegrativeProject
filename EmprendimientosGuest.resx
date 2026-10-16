@@ -121,7 +121,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMgAAAA8CAYAAAAjW/WRAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAAcAUlEQVR4Xu1dCXhURbY+F5injKMz
+        DAAACwwBP0AiyAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAAcAUlEQVR4Xu1dCXhURbY+F5injKMz
         w9NhZFCRRWQRgQTJvpCQEGBQwKAs6c4eEtJLElBBYaIiKCDgCMIwroSwuAOODs8dwXFD1mzse8JOCOnu
         dPe9532nbnenc2/fm+4kor53/+/7yVZ1qm71OVV1Tp26AGjQoEGDBg0aNGjQoEGDBg0aNGjQAACciwxF
         QV1uXhDZLXrtqB6Gr5MHLD09LXj1kazgdTXGkFffHtXr2Y8e6JPxyH23Bk/u2ekmJRkaNPza4VHo5L63
@@ -245,7 +245,11 @@
 </value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>56, 33</value>
+    <value>64, 44</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 60</value>
@@ -277,10 +281,10 @@
     <value>Segoe UI, 14.25pt, style=Bold</value>
   </data>
   <data name="EmprendimientosText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>688, 47</value>
+    <value>786, 63</value>
   </data>
   <data name="EmprendimientosText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 25</value>
+    <value>216, 32</value>
   </data>
   <data name="EmprendimientosText.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -307,10 +311,10 @@
     <value>Segoe UI, 14.25pt, style=Bold</value>
   </data>
   <data name="EventosText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>892, 47</value>
+    <value>1019, 63</value>
   </data>
   <data name="EventosText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 25</value>
+    <value>103, 32</value>
   </data>
   <data name="EventosText.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -337,10 +341,10 @@
     <value>Segoe UI, 14.25pt, style=Bold</value>
   </data>
   <data name="NoticiasText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>997, 47</value>
+    <value>1139, 63</value>
   </data>
   <data name="NoticiasText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 25</value>
+    <value>107, 32</value>
   </data>
   <data name="NoticiasText.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -367,10 +371,10 @@
     <value>Segoe UI, 14.25pt, style=Bold</value>
   </data>
   <data name="IniciarSesionText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 14</value>
+    <value>32, 19</value>
   </data>
   <data name="IniciarSesionText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 25</value>
+    <value>160, 32</value>
   </data>
   <data name="IniciarSesionText.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -394,10 +398,13 @@
     <value>Segoe UI Light, 9pt</value>
   </data>
   <data name="BuscarTextbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>395, 139</value>
+    <value>451, 185</value>
+  </data>
+  <data name="BuscarTextbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="BuscarTextbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>596, 23</value>
+    <value>681, 27</value>
   </data>
   <data name="BuscarTextbox.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -420,7 +427,7 @@
   <data name="Like1Boton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAYAAADFniADAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAAD2ElEQVRYR+2XacimYxTHfwxm7NM0
+        DAAACwwBP0AiyAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAAD2ElEQVRYR+2XacimYxTHfwxm7NM0
         yJrxAc3ElOwSyvZNtsE0ZimDqQkxX0gkW8gWH5BdWQYz82EoZGkKISVbyVqK7Fv2tZ/OVcd57/t9n2dm
         zKf3X3f385z7f51zrnOd6zrngnGM41+sVwUDYsxxlbAZsB9wHLAQWAScCZwIHAJMKfwG5YcGT77jTg89
         +wKbFn6124mNgK2AOcBS4APgV+C3eD4GngiDOwKbxDiN7RTyJ4PXxvwSeh4MvVPDzsDYDbgc+Aj4Cfi7
@@ -441,10 +448,13 @@
 </value>
   </data>
   <data name="Like1Boton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>239, 310</value>
+    <value>273, 413</value>
+  </data>
+  <data name="Like1Boton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="Like1Boton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 41</value>
+    <value>48, 55</value>
   </data>
   <data name="Like1Boton.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -468,10 +478,10 @@
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
   <data name="Descripcion1Text.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 232</value>
+    <value>24, 309</value>
   </data>
   <data name="Descripcion1Text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 40</value>
+    <value>289, 50</value>
   </data>
   <data name="Descripcion1Text.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -499,10 +509,10 @@ para lobos</value>
     <value>Segoe UI, 14.25pt, style=Bold</value>
   </data>
   <data name="Nombre1Text.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 198</value>
+    <value>24, 264</value>
   </data>
   <data name="Nombre1Text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 25</value>
+    <value>83, 32</value>
   </data>
   <data name="Nombre1Text.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -525,7 +535,7 @@ para lobos</value>
   <data name="Imagen1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAASMAAACwCAYAAABEpQh0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAD/mElEQVR4XrT9BXRl55Xvi6pYVWKG
+        DAAACwwBP0AiyAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAD/mElEQVR4XrT9BXRl55Xvi6pYVWKG
         vaXNzMyM0t5iZi5Jxczksl1mZsdMsZ3ESRyH47jjsMPucNJJdzhpSNLdp/t033Pu7471Ve697/Wj8Uhj
         rKGyRlkl7b3W/Ob806yo+P/wY2rMl1hfSR5eWQh8sK/X8fPz5w798fmXnuXtr3yZH/7s5/z+H//MH//l
         3/iX//gffOGb36Zb3U1l5Xbqqnawb+8MBk07Bm07Xo+GvlKYkf4oQXc3AWcHdlMTUb+S3oKLVMpMKKwh
@@ -3220,7 +3230,10 @@ para lobos</value>
 </value>
   </data>
   <data name="Imagen1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 6</value>
+    <value>3, 8</value>
+  </data>
+  <data name="Imagen1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="Imagen1.Size" type="System.Drawing.Size, System.Drawing">
     <value>291, 176</value>
@@ -3244,10 +3257,13 @@ para lobos</value>
     <value>3</value>
   </data>
   <data name="Empre1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 342</value>
+    <value>209, 456</value>
+  </data>
+  <data name="Empre1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="Empre1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 364</value>
+    <value>336, 485</value>
   </data>
   <data name="Empre1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -3267,7 +3283,7 @@ para lobos</value>
   <data name="Like2Boton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAYAAADFniADAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAAD2ElEQVRYR+2XacimYxTHfwxm7NM0
+        DAAACwwBP0AiyAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAAD2ElEQVRYR+2XacimYxTHfwxm7NM0
         yJrxAc3ElOwSyvZNtsE0ZimDqQkxX0gkW8gWH5BdWQYz82EoZGkKISVbyVqK7Fv2tZ/OVcd57/t9n2dm
         zKf3X3f385z7f51zrnOd6zrngnGM41+sVwUDYsxxlbAZsB9wHLAQWAScCZwIHAJMKfwG5YcGT77jTg89
         +wKbFn6124mNgK2AOcBS4APgV+C3eD4GngiDOwKbxDiN7RTyJ4PXxvwSeh4MvVPDzsDYDbgc+Aj4Cfi7
@@ -3288,10 +3304,13 @@ para lobos</value>
 </value>
   </data>
   <data name="Like2Boton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>236, 310</value>
+    <value>270, 413</value>
+  </data>
+  <data name="Like2Boton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="Like2Boton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 39</value>
+    <value>49, 52</value>
   </data>
   <data name="Like2Boton.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -3315,10 +3334,10 @@ para lobos</value>
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
   <data name="Descripcion2Text.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 232</value>
+    <value>25, 309</value>
   </data>
   <data name="Descripcion2Text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>241, 20</value>
+    <value>302, 25</value>
   </data>
   <data name="Descripcion2Text.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -3345,10 +3364,10 @@ para lobos</value>
     <value>Segoe UI, 14.25pt, style=Bold</value>
   </data>
   <data name="Nombre2Text.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 198</value>
+    <value>25, 264</value>
   </data>
   <data name="Nombre2Text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 25</value>
+    <value>150, 32</value>
   </data>
   <data name="Nombre2Text.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -3371,7 +3390,7 @@ para lobos</value>
   <data name="Imagen2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAASMAAACwCAYAAABEpQh0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAD/mElEQVR4Xrz9B1RcWZ7mi+bM3HXv
+        DAAACwwBP0AiyAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAD/mElEQVR4Xrz9B1RcWZ7mi+bM3HXv
         mPemu6drqqq7XGZWmkrvlEZKeW+Q9w4JAUI4CQkQCJAwAoHw3nvvvffeey8kgQQI7z1BBL+7zgkps7ra
         TE/3m7fXOisgzomIY/b+9vf//ma/9da/saWmRm5zc7O55ez8MMnSwqjP081puqu9kY6WaiZH+2Bdgky2
         xJp0ibW1NbLS8xkbmWAdCSDB39eXzz/6jqiIdIQmk0nFfeus/qON9Td/S5BKlvF2c6a5uk78nPDdUqmU
@@ -6032,7 +6051,10 @@ para lobos</value>
 </value>
   </data>
   <data name="Imagen2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 3</value>
+    <value>0, 4</value>
+  </data>
+  <data name="Imagen2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="Imagen2.Size" type="System.Drawing.Size, System.Drawing">
     <value>291, 176</value>
@@ -6056,10 +6078,13 @@ para lobos</value>
     <value>3</value>
   </data>
   <data name="Empre2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>556, 342</value>
+    <value>635, 456</value>
+  </data>
+  <data name="Empre2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="Empre2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 361</value>
+    <value>334, 481</value>
   </data>
   <data name="Empre2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -6077,10 +6102,13 @@ para lobos</value>
     <value>10</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1143, 33</value>
+    <value>1306, 44</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 49</value>
+    <value>208, 65</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -6100,7 +6128,7 @@ para lobos</value>
   <data name="BuscarBoton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADgAAAA1CAYAAAAUGCjAAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAAFh0lEQVRoQ9Va308cVRQeYt/0AR/0
+        DAAACwwBP0AiyAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAAFh0lEQVRoQ9Va308cVRQeYt/0AR/0
         oS8SfYboP9A3X3yxDz5adihiTU0ksWhf9MGYaK21a7HRh2rxwWg1paRQY0w12FgLbIEpdGcXf5QtYAtW
         2BUo7O7sj2POuXeWYe7ssnPvsLs9yZclc+/cud9855w5ZwZNC9J0o1nrMJ/X9FhY02MDmh5LaHospekx
         KIOUppuGpseG6Rw612h2L1tfww3pM918k24CshjWOuIhrTP2hPtytTPdaOFKVVIoAJh9tSVKihExj83s
@@ -6128,10 +6156,13 @@ para lobos</value>
 </value>
   </data>
   <data name="BuscarBoton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>986, 116</value>
+    <value>1127, 155</value>
+  </data>
+  <data name="BuscarBoton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="BuscarBoton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 66</value>
+    <value>78, 88</value>
   </data>
   <data name="BuscarBoton.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -6149,10 +6180,13 @@ para lobos</value>
     <value>5</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>325, 135</value>
+    <value>371, 180</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 28</value>
+    <value>83, 37</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -6179,10 +6213,10 @@ para lobos</value>
     <value>Segoe UI, 45pt, style=Bold</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>460, 195</value>
+    <value>526, 260</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>531, 81</value>
+    <value>665, 100</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -6209,10 +6243,10 @@ para lobos</value>
     <value>Segoe UI, 15.75pt, style=Bold</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>538, 276</value>
+    <value>615, 368</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>368, 30</value>
+    <value>477, 37</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -6235,7 +6269,7 @@ para lobos</value>
   <data name="Like3Boton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAYAAADFniADAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAAD2ElEQVRYR+2XacimYxTHfwxm7NM0
+        DAAACwwBP0AiyAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAAD2ElEQVRYR+2XacimYxTHfwxm7NM0
         yJrxAc3ElOwSyvZNtsE0ZimDqQkxX0gkW8gWH5BdWQYz82EoZGkKISVbyVqK7Fv2tZ/OVcd57/t9n2dm
         zKf3X3f385z7f51zrnOd6zrngnGM41+sVwUDYsxxlbAZsB9wHLAQWAScCZwIHAJMKfwG5YcGT77jTg89
         +wKbFn6124mNgK2AOcBS4APgV+C3eD4GngiDOwKbxDiN7RTyJ4PXxvwSeh4MvVPDzsDYDbgc+Aj4Cfi7
@@ -6256,10 +6290,13 @@ para lobos</value>
 </value>
   </data>
   <data name="Like3Boton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>239, 310</value>
+    <value>273, 413</value>
+  </data>
+  <data name="Like3Boton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="Like3Boton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 41</value>
+    <value>50, 55</value>
   </data>
   <data name="Like3Boton.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -6283,10 +6320,10 @@ para lobos</value>
     <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 232</value>
+    <value>31, 309</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 40</value>
+    <value>295, 50</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -6314,10 +6351,10 @@ a ayudar en el hogar.</value>
     <value>Segoe UI, 14.25pt, style=Bold</value>
   </data>
   <data name="Nombre3Text.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 198</value>
+    <value>31, 264</value>
   </data>
   <data name="Nombre3Text.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 25</value>
+    <value>160, 32</value>
   </data>
   <data name="Nombre3Text.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -6340,7 +6377,7 @@ a ayudar en el hogar.</value>
   <data name="Imagen3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAASMAAACwCAYAAABEpQh0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAD/mElEQVR4Xsz9BXQVV/v/gU6Q6tu3
+        DAAACwwBP0AiyAAAAA50RVh0U29mdHdhcmUARmlnbWGesZZjAAD/mElEQVR4Xsz9BXQVV/v/gU6Q6tu3
         LS0tTnAp7g6lUKB40QItxd3dCcQT3N2hXureUqG4Qzw5cT0WJQkk37uevWfP7JlzEmjf3//e27X2CoWQ
         HE5mPvN9vo8pyr/8r+2M0O6tZ4fNazMz5PN2M0MtbWaHOdrODkO72WHoMDcUHeaEotPcMHScG4bO8yPQ
         ST1dFoSj68IIdrotikT3hZHosTAK3ReH4/Ulkei5NIp9fGNZtHqi0Gt5NDt9l8eg7woLO/1WxuKtlbHo
@@ -7821,7 +7858,10 @@ a ayudar en el hogar.</value>
 </value>
   </data>
   <data name="Imagen3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>3, 4</value>
+  </data>
+  <data name="Imagen3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="Imagen3.Size" type="System.Drawing.Size, System.Drawing">
     <value>291, 176</value>
@@ -7845,10 +7885,13 @@ a ayudar en el hogar.</value>
     <value>3</value>
   </data>
   <data name="Empre3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>924, 342</value>
+    <value>1056, 456</value>
+  </data>
+  <data name="Empre3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="Empre3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>295, 361</value>
+    <value>337, 481</value>
   </data>
   <data name="Empre3.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -7879,10 +7922,13 @@ a ayudar en el hogar.</value>
 </value>
   </data>
   <data name="Cambiar2Boton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1268, 530</value>
+    <value>1449, 707</value>
+  </data>
+  <data name="Cambiar2Boton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="Cambiar2Boton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 43</value>
+    <value>49, 57</value>
   </data>
   <data name="Cambiar2Boton.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -7900,10 +7946,13 @@ a ayudar en el hogar.</value>
     <value>3</value>
   </data>
   <data name="Cambiar1Boton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>75, 530</value>
+    <value>86, 707</value>
+  </data>
+  <data name="Cambiar1Boton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="Cambiar1Boton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 43</value>
+    <value>48, 57</value>
   </data>
   <data name="Cambiar1Boton.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -7924,10 +7973,13 @@ a ayudar en el hogar.</value>
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
+    <value>8, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1364, 749</value>
+    <value>1559, 999</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>EmprendimientosGuest</value>

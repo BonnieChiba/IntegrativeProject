@@ -90,17 +90,20 @@
             // 
             resources.ApplyResources(NoticiasText, "NoticiasText");
             NoticiasText.Name = "NoticiasText";
+            NoticiasText.Click += NoticiasText_Click;
             // 
             // IniciarSesionText
             // 
             resources.ApplyResources(IniciarSesionText, "IniciarSesionText");
             IniciarSesionText.Name = "IniciarSesionText";
-            IniciarSesionText.Click += IniciarSesionText_Click;
+            IniciarSesionText.Click += IniciarSesion_Click;
             // 
             // BuscarTextbox
             // 
             resources.ApplyResources(BuscarTextbox, "BuscarTextbox");
             BuscarTextbox.Name = "BuscarTextbox";
+            BuscarTextbox.Click += BuscarTexboxClick;
+            BuscarTextbox.TextChanged += BuscarTextbox_TextChanged;
             // 
             // Empre1
             // 
