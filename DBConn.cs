@@ -43,7 +43,7 @@ namespace PITCHER
             string dblocation = "localhost";
             string user = "root";
             string password = "";
-            string dbName = "db";
+            string dbName = "integrative";
 
             string connectionString = "Server=" + dblocation + ";Database=" + dbName + ";Uid=" + user + ";Pwd=" + password + ";";
 

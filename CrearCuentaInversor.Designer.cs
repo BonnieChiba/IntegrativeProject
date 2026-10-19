@@ -48,6 +48,7 @@
             RegresarInversor = new Button();
             LineaSuperiorPicturebox = new PictureBox();
             pictureBox1 = new PictureBox();
+            CiudadInversorTextBox = new TextBox();
             CuadroBlancoTexto.SuspendLayout();
             BackgroundInversor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)LineaSuperiorPicturebox).BeginInit();
@@ -57,6 +58,7 @@
             // CuadroBlancoTexto
             // 
             CuadroBlancoTexto.BackColor = Color.White;
+            CuadroBlancoTexto.Controls.Add(CiudadInversorTextBox);
             CuadroBlancoTexto.Controls.Add(RFCInversorTextbox);
             CuadroBlancoTexto.Controls.Add(RegistrarseBoton);
             CuadroBlancoTexto.Controls.Add(TerminosLink);
@@ -71,13 +73,14 @@
             CuadroBlancoTexto.Controls.Add(CrearCuentaLabel);
             CuadroBlancoTexto.Location = new Point(285, 51);
             CuadroBlancoTexto.Name = "CuadroBlancoTexto";
-            CuadroBlancoTexto.Size = new Size(423, 558);
+            CuadroBlancoTexto.Size = new Size(423, 572);
             CuadroBlancoTexto.TabIndex = 0;
+            CuadroBlancoTexto.Paint += CuadroBlancoTexto_Paint;
             // 
             // RFCInversorTextbox
             // 
             RFCInversorTextbox.Font = new Font("Segoe UI Light", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            RFCInversorTextbox.Location = new Point(74, 270);
+            RFCInversorTextbox.Location = new Point(74, 273);
             RFCInversorTextbox.Name = "RFCInversorTextbox";
             RFCInversorTextbox.Size = new Size(276, 23);
             RFCInversorTextbox.TabIndex = 11;
@@ -88,7 +91,7 @@
             RegistrarseBoton.BackColor = Color.Blue;
             RegistrarseBoton.FlatStyle = FlatStyle.Flat;
             RegistrarseBoton.ForeColor = Color.White;
-            RegistrarseBoton.Location = new Point(100, 473);
+            RegistrarseBoton.Location = new Point(100, 508);
             RegistrarseBoton.Name = "RegistrarseBoton";
             RegistrarseBoton.Size = new Size(224, 28);
             RegistrarseBoton.TabIndex = 10;
@@ -99,7 +102,7 @@
             // TerminosLink
             // 
             TerminosLink.AutoSize = true;
-            TerminosLink.Location = new Point(145, 440);
+            TerminosLink.Location = new Point(145, 480);
             TerminosLink.Name = "TerminosLink";
             TerminosLink.Size = new Size(149, 15);
             TerminosLink.TabIndex = 9;
@@ -109,12 +112,13 @@
             // TerminosCheckbox
             // 
             TerminosCheckbox.AutoSize = true;
-            TerminosCheckbox.Location = new Point(123, 418);
+            TerminosCheckbox.Location = new Point(123, 458);
             TerminosCheckbox.Name = "TerminosCheckbox";
             TerminosCheckbox.Size = new Size(190, 19);
             TerminosCheckbox.TabIndex = 8;
             TerminosCheckbox.Text = "Acepto terminos y condiciones";
             TerminosCheckbox.UseVisualStyleBackColor = true;
+            TerminosCheckbox.CheckedChanged += TerminosCheckbox_CheckedChanged;
             // 
             // NombreTextbox
             // 
@@ -146,7 +150,7 @@
             // ConfirmarContraseñaTextbox
             // 
             ConfirmarContraseñaTextbox.Font = new Font("Segoe UI Light", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ConfirmarContraseñaTextbox.Location = new Point(74, 359);
+            ConfirmarContraseñaTextbox.Location = new Point(74, 415);
             ConfirmarContraseñaTextbox.Name = "ConfirmarContraseñaTextbox";
             ConfirmarContraseñaTextbox.Size = new Size(276, 23);
             ConfirmarContraseñaTextbox.TabIndex = 4;
@@ -155,7 +159,7 @@
             // ContraseñaTextBox
             // 
             ContraseñaTextBox.Font = new Font("Segoe UI Light", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ContraseñaTextBox.Location = new Point(74, 316);
+            ContraseñaTextBox.Location = new Point(74, 369);
             ContraseñaTextBox.Name = "ContraseñaTextBox";
             ContraseñaTextBox.Size = new Size(276, 23);
             ContraseñaTextBox.TabIndex = 3;
@@ -259,6 +263,15 @@
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
             // 
+            // CiudadInversorTextBox
+            // 
+            CiudadInversorTextBox.Font = new Font("Segoe UI Light", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            CiudadInversorTextBox.Location = new Point(74, 320);
+            CiudadInversorTextBox.Name = "CiudadInversorTextBox";
+            CiudadInversorTextBox.Size = new Size(276, 23);
+            CiudadInversorTextBox.TabIndex = 12;
+            CiudadInversorTextBox.Text = "Ciudad";
+            // 
             // CrearCuentaInversor
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -298,5 +311,6 @@
         private PictureBox pictureBox1;
         private MaskedTextBox RFCInversorTextbox;
         private Button RegresarInversor;
+        private TextBox CiudadInversorTextBox;
     }
 }
