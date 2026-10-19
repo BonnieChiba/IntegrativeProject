@@ -47,6 +47,7 @@
             CrearCuentaText = new Label();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
+            RegresarEmprendedorBoton = new Button();
             BackgroundEmprendedor.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -56,6 +57,7 @@
             // BackgroundEmprendedor
             // 
             BackgroundEmprendedor.BackColor = Color.Blue;
+            BackgroundEmprendedor.Controls.Add(RegresarEmprendedorBoton);
             BackgroundEmprendedor.Controls.Add(label2);
             BackgroundEmprendedor.Controls.Add(label1);
             BackgroundEmprendedor.Controls.Add(panel1);
@@ -247,6 +249,16 @@
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
             // 
+            // RegresarEmprendedorBoton
+            // 
+            RegresarEmprendedorBoton.ForeColor = Color.Transparent;
+            RegresarEmprendedorBoton.Image = (Image)resources.GetObject("RegresarEmprendedorBoton.Image");
+            RegresarEmprendedorBoton.Location = new Point(69, 30);
+            RegresarEmprendedorBoton.Name = "RegresarEmprendedorBoton";
+            RegresarEmprendedorBoton.Size = new Size(62, 66);
+            RegresarEmprendedorBoton.TabIndex = 5;
+            RegresarEmprendedorBoton.UseVisualStyleBackColor = true;
+            // 
             // CrearCuentaEmprendedor
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -284,5 +296,6 @@
         private PictureBox pictureBox2;
         private Label label1;
         private Label label2;
+        private Button RegresarEmprendedorBoton;
     }
 }
