@@ -27,12 +27,12 @@ namespace Proyecto_Integrador
             if (pic.Tag?.ToString() == "lleno")
             {
                 pic.Image = Properties.Resources.heart;
-                pic.Tag = "cora vacio";
+                pic.Tag = "vacio";
             }
             else
             {
                 pic.Image = Properties.Resources.heart_filled;
-                pic.Tag = "cora lleno";
+                pic.Tag = "lleno";
             }
         }
 
@@ -87,6 +87,11 @@ namespace Proyecto_Integrador
         }
 
         private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picSDF_Click(object sender, EventArgs e)
         {
 
         }

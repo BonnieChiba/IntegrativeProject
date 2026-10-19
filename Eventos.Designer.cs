@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Eventos));
             pnltop = new Panel();
             pnlfiltrar = new Panel();
             lblfiltrar = new Label();
@@ -87,7 +88,7 @@
             pnltop.Dock = DockStyle.Top;
             pnltop.Location = new Point(0, 0);
             pnltop.Name = "pnltop";
-            pnltop.Size = new Size(984, 190);
+            pnltop.Size = new Size(984, 162);
             pnltop.TabIndex = 0;
             pnltop.Paint += panel1_Paint;
             // 
@@ -95,7 +96,7 @@
             // 
             pnlfiltrar.BackColor = SystemColors.HotTrack;
             pnlfiltrar.Controls.Add(lblfiltrar);
-            pnlfiltrar.Location = new Point(179, 109);
+            pnlfiltrar.Location = new Point(179, 83);
             pnlfiltrar.Name = "pnlfiltrar";
             pnlfiltrar.Size = new Size(113, 61);
             pnlfiltrar.TabIndex = 5;
@@ -117,7 +118,7 @@
             // 
             pnlbusceda.BackColor = Color.White;
             pnlbusceda.Controls.Add(lblbuscar);
-            pnlbusceda.Location = new Point(179, 109);
+            pnlbusceda.Location = new Point(179, 83);
             pnlbusceda.Name = "pnlbusceda";
             pnlbusceda.Size = new Size(638, 61);
             pnlbusceda.TabIndex = 4;
@@ -137,8 +138,8 @@
             // 
             // PicAvatar
             // 
-            PicAvatar.Image = Properties.Resources.danielayala_png;
-            PicAvatar.Location = new Point(895, 29);
+            PicAvatar.Image = (Image)resources.GetObject("PicAvatar.Image");
+            PicAvatar.Location = new Point(895, 11);
             PicAvatar.Name = "PicAvatar";
             PicAvatar.Size = new Size(66, 45);
             PicAvatar.SizeMode = PictureBoxSizeMode.Zoom;
@@ -153,7 +154,7 @@
             pnlnav.Controls.Add(lblnoticias);
             pnlnav.Controls.Add(lbleventos);
             pnlnav.Controls.Add(lblEmprendimientos);
-            pnlnav.Location = new Point(400, 30);
+            pnlnav.Location = new Point(400, 16);
             pnlnav.Name = "pnlnav";
             pnlnav.Size = new Size(407, 44);
             pnlnav.TabIndex = 2;
@@ -204,8 +205,8 @@
             // 
             // piclogo
             // 
-            piclogo.Image = Properties.Resources.pitchr;
-            piclogo.Location = new Point(-101, -55);
+            piclogo.Image = (Image)resources.GetObject("piclogo.Image");
+            piclogo.Location = new Point(-101, -76);
             piclogo.Name = "piclogo";
             piclogo.Size = new Size(459, 218);
             piclogo.SizeMode = PictureBoxSizeMode.Zoom;
@@ -218,7 +219,7 @@
             lbleventosbig.AutoSize = true;
             lbleventosbig.Font = new Font("Segoe UI", 38F, FontStyle.Bold);
             lbleventosbig.ForeColor = SystemColors.HotTrack;
-            lbleventosbig.Location = new Point(405, 231);
+            lbleventosbig.Location = new Point(410, 165);
             lbleventosbig.Name = "lbleventosbig";
             lbleventosbig.Size = new Size(216, 68);
             lbleventosbig.TabIndex = 4;
@@ -283,7 +284,7 @@
             // 
             // picJPF
             // 
-            picJPF.Image = Properties.Resources.Screenshot_2026_10_11_202703;
+            picJPF.Image = (Image)resources.GetObject("picJPF.Image");
             picJPF.Location = new Point(-17, -2);
             picJPF.Name = "picJPF";
             picJPF.Size = new Size(277, 159);
@@ -306,7 +307,7 @@
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = Properties.Resources.heart;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new Point(176, 208);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(47, 39);
@@ -350,13 +351,14 @@
             // 
             // picSDF
             // 
-            picSDF.Image = Properties.Resources.Screenshot_2026_10_11_202732;
+            picSDF.Image = (Image)resources.GetObject("picSDF.Image");
             picSDF.Location = new Point(-8, -17);
             picSDF.Name = "picSDF";
             picSDF.Size = new Size(261, 174);
             picSDF.SizeMode = PictureBoxSizeMode.Zoom;
             picSDF.TabIndex = 0;
             picSDF.TabStop = false;
+            picSDF.Click += picSDF_Click;
             // 
             // pnlFM
             // 
@@ -384,7 +386,7 @@
             // 
             // picFM
             // 
-            picFM.Image = Properties.Resources.Screenshot_2026_10_11_202749;
+            picFM.Image = (Image)resources.GetObject("picFM.Image");
             picFM.Location = new Point(-12, -1);
             picFM.Name = "picFM";
             picFM.Size = new Size(262, 158);
